@@ -1,0 +1,25 @@
+@relation subjectivity
+
+@attribute performance {veryGood,good,okay,bad,veryBad}
+@attribute week1Subjectivity real
+@attribute week2Subjectivity real
+@attribute week3Subjectivity real
+
+@data
+veryGood,1.78,2.33,1.78
+veryGood,0.85,1.38,0.47
+veryGood,0.67,0.56,0.28
+good,1.08,1.63,0.39
+okay,1.94,0.32,0.61
+veryBad,1.78,0.85,0.92
+bad,0.43,0.85,0.47
+veryBad,0.85,0.56,1.27
+bad,0.56,,0.61,1.38
+bad,1.94,,0.85,0.35
+
+
+
+
+
+
+
