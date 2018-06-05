@@ -1,0 +1,39 @@
+This document outlines what the results produced mean:
+
+Polarity: the number of positive tweets divided by the number of negative tweets (Higher indicates the film is being recieved well)
+Subjectivity: the total number of positive and negative tweets divided by the number of neutral tweets 
+(Higher indicates that people are sharing more opinions)
+
+Critical Period: The critical period of a film is defined by the week before and the two weeks after a films release date
+	week1 - week before films release
+	week2 - week after the films has been released
+	week3 - week after week 2
+
+
+prediction: This is based on my primary reaserch into the topic area and this indicates based on the sentiment of the tweets how successful a film will be.
+1. Very Good - from my research this is a value given to a film that achieved a domestic profit of $200mil or greater
+2. Good - from my resaerch this is a value given to a film that achieved a domestic profirt less than $200mil but greater than $100mil
+3. Okay - from my resaerch this is a value given to a film that achieved a domestic profirt of less than $100mil or breaks even
+4. Bad - from my resaerch this is a value given to a film that achieved a domestic loss up to -$100mil
+5. Very Bad - from my resaerch this is a value given to a film that achieved a domestic greater than -$100mil
+
+Data mining - decision tree to determine prediction
+Intial prediction with no chnage in polarity or subjectivity
+Very Good - polarity > 4
+Good - 4 >= polarity > 3.5
+Okay - 3.5 >= polarity >= 2.0
+Bad - 2.0 > polarity >= 1
+Very Bad - 1.00 > polarity
+
+If there is a change is polarity
+Increase prediction by one level - polarity change > 2
+Decrease prediction by one level - polarity chnage < -2
+
+If there is a change in subjectivity
+Increase prediction by one level - if subjectivity change > 2 and polarity increase by any amount
+Decrease prediction by one level - if subjectivity change > 2 and polarity decreases by any amount
+
+
+
+
+ 
