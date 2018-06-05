@@ -1,0 +1,28 @@
+@relation subjectivity
+
+@attribute performance {veryGood,good,okay,bad,veryBad}
+@attribute SubjectivityMean real
+
+
+@data
+veryGood,1.96
+veryGood,0.90
+veryGood,0.50
+good,1.03
+okay,0.96
+veryBad,1.18
+bad,0.58
+veryBad,0.90
+bad,0.85
+bad,1.05
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+@relation sentiment
+
+@attribute performance {veryGood,good,okay,bad,veryBad}
+@attribute PolarityMean real
+
+@data
+veryGood,4.77
+veryGood,3.88
+veryGood,4.57
+good,3.59
+okay,3.25
+veryBad,3.95
+bad,0.90
+veryBad,2.05
+bad,2.83
+bad,1.94
+
+
+

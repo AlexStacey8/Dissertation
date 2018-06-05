@@ -1,0 +1,18 @@
+@relation sentiment
+
+@attribute performance {veryGood,good,okay,bad,veryBad}
+@attribute week1Polarity real
+@attribute week2Polarity real
+@attribute week3Polarity real
+
+@data
+veryGood,3.57,7.75,3.00
+veryGood,1.05,6.25,4.33
+veryGood,9.00,3.50,1.20
+good,1.20,9.33,0.25
+okay,1.00,5.00,3.75
+veryBad,2.56,2.29,7.00
+bad,0.67,0.35,1.67
+veryBad,1.05,2.60,2.50
+bad,3.50,3.75,1.23
+bad,1.06,3.60,1.17
